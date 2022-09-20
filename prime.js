@@ -1,9 +1,16 @@
-function prime(num){
-    for(let i=1;i<=num;i++){
-        if(num%i){
-            return true
-        }
-    }
-    return false
+function checkprime(num){
+  
+let count=0;
+for(let i=1;i<=num;i++){
+  if(num%i==0){
+    count++;
+  }
 }
-prime(13)
+if(count==2){
+  console.log("prime");
+}else if(count!==2){
+  console.log("not prime")
+}
+}
+
+

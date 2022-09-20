@@ -1,16 +1,19 @@
-function checkprime(num){
-  
-let count=0;
-for(let i=1;i<=num;i++){
-  if(num%i==0){
-    count++;
-  }
+code_fix_manoj
+function prime(number){
+    let factors=0;
+    for(let i=1;i<=number;i++){
+        if(num%i==0){
+            factors++;
+        }
+    }
+    if(factors==2){
+        return true;
+    }
+    return false;
 }
-if(count==2){
-  console.log("prime");
-}else if(count!==2){
-  console.log("not prime")
+let ans=prime(13);
+if(ans==true){
+    console.log("Prime")
+} else {
+    console.log("Not prime");
 }
-}
-
-

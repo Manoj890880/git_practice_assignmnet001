@@ -1,3 +1,4 @@
+code_fix_manoj
 function prime(number){
     let factors=0;
     for(let i=1;i<=number;i++){
